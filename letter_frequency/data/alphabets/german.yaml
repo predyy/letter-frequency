@@ -1,0 +1,36 @@
+alphabet:
+  - a
+  - ä
+  - b
+  - c
+  - d
+  - e
+  - f
+  - g
+  - h
+  - i
+  - j
+  - k
+  - l
+  - m
+  - n
+  - o
+  - ö
+  - p
+  - q
+  - r
+  - s
+  - ß
+  - t
+  - u
+  - ü
+  - v
+  - w
+  - x
+  - y
+  - z
+ascii_mappings:
+  ä: a
+  ö: o
+  ü: u
+  ß: s
