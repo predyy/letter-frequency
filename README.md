@@ -1,12 +1,12 @@
-# Character Frequency Analysis Tool
+# 🔍 Character Frequency Analysis Tool
 
 This tool analyzes the frequency of characters and pairs of characters in a text file. It supports multiple output formats and languages, with an option to focus only on ASCII characters for broader compatibility.
 
-## Description
+## 📝 Description
 
 The Character Frequency Analysis Tool is designed to process text files to extract and report the frequency of individual characters and character pairs. This tool is versatile, supporting various languages and output formats, including YAML and JSON. It also features an ASCII-only mode, which converts non-ASCII characters to their closest ASCII equivalents, such as mapping "ö" to "o".
 
-## Installation
+## 💾 Installation
 
 Before using the tool, ensure you have Python installed on your system. You can then clone this repository to your local machine.
 
@@ -14,7 +14,7 @@ Before using the tool, ensure you have Python installed on your system. You can 
 git clone https://github.com/predyy/letter-frequency.git
 ```
 
-## Usage
+## 🚀 Usage
 
 To use the tool, navigate to the program's directory and run the following command in your terminal:
 
@@ -47,14 +47,14 @@ Analyze a text file in German in ASCII mode with JSON output:
 python letter_frequency.py data/samples/german/combined.txt --language german --ascii --json
 ```
 
-## Adding New Languages
+## 🔡 Adding New Languages
 
 To add support for a new language, create a YAML file in the `data/alphabets` directory. The file should also map each character in the alphabet to its ASCII equivalent if necessary.
 
-## Samples
+## 📋 Samples
 
 Sample text files for testing and examples of their analysis results are included in the data/samples and data/samples_results directories, respectively.
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
